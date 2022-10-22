@@ -1,0 +1,167 @@
+body{
+    background-image: url(../imagens/pexels_bernhard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'VT323', monospace;
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+  
+.cartao{
+    background-color: #070d12;
+    width: 370px;
+    border: 2px solid #e1e110;
+    border-radius: 10px;
+    overflow: hidden;
+}
+ 
+
+.cartao .minhas-informacoes{
+    padding-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+  
+.cartao .minhas-informacoes img#fotoPerfil{
+      border-radius: 50px;
+      border: 4px solid #e1e110;    
+}
+.cartao .minhas-informacoes .nome{
+      font-size: 26px;
+}
+  
+.cartao .minhas-informacoes .cargo{
+      font-size: 23px;
+      color: #b8bbc5;
+}
+  
+.cartao .conteudo{
+      margin-top: 15px;
+}
+  
+.cartao .abas{
+      display: flex;
+}
+  
+.cartao .abas .aba{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+.cartao .abas img{
+      width: 30px;
+}
+  
+.cartao .abas .aba.selecionado{
+      background-color: #262626;
+}
+  
+.cartao .informacoes-abas{
+      background-color: #262626;
+}
+  
+.cartao .abas .aba:hover{
+      background-color: #414141;
+}
+/*    */
+.informacoes-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+  
+.informacoes-abas .informacao.selecionado{
+    display: block;
+}
+  
+.informacoes-abas .sub-titulo{
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+  
+.conteudo .informacoes-abas .descricao{
+   font-size: 22px;
+   max-height: 180px;
+   overflow-y: auto;
+
+}
+.conteudo .informacoes-abas .descricao span.amor{
+      color: #d50d0dc3;
+}
+.conteudo .informacoes-abas .descricao span#futebol{
+      color:  #55ff00;
+}
+.conteudo .informacoes-abas .descricao span#tecnologia{
+      color: #099aeea6;
+}
+.conteudo .informacoes-abas .descricao span#html{
+      color: #ff6f00ca;
+}
+.conteudo .informacoes-abas .descricao span#css{
+      color: #099aee;
+}
+.conteudo .informacoes-abas .descricao span#javaScript{
+      color: #ffee01f5;
+}
+.conteudo .informacoes-abas .descricao img.gp{
+     
+      margin-bottom: 10px; 
+  
+}
+.conteudo .informacoes-abas .descricao span.borussia{
+      color: #e1e110;
+}
+.conteudo .informacoes-abas .descricao img#bandeira_brasil{
+    margin-bottom: 0px; 
+}
+
+.redes-sociais{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-height: 180px;
+      overflow-y: auto;
+}
+.redes-sociais img#oculos{
+      margin-top: 0px;      
+}
+  
+.redes-sociais li a{    
+      width: 250px;
+      display: block;
+      color: #f3f3f3;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 15px;
+      font-size: 20px;
+      transition: opacity 0.3s ease-in-out;
+}
+  
+.redes-sociais li a:hover{
+ opacity: 0.8;
+}
+.redes-sociais .curriculo{
+   background-color: #06c185;
+    
+}
+  
+.redes-sociais .linkedin{
+    background-color: #1d87bd;
+}
+  
+.redes-sociais .github{
+    background-color: #545454;
+ }
